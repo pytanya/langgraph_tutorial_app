@@ -3,7 +3,7 @@ import streamlit as st
 def render():
     st.balloons()
     
-    st.header("Урок 19: 🎉 Поздравляем, вы завершили курс Академии LangGraph!")
+    st.header("Урок 20: 🎉 Поздравляем, вы завершили курс Академии LangGraph!")
     
     st.markdown("""
     Вы проделали огромную работу и изучили самые передовые концепции создания AI-агентов!
@@ -37,8 +37,8 @@ def render():
 
     st.subheader("🔗 Что дальше?")
     st.markdown("""
-    * **Официальная Документация:** [python.langchain.com/docs/langgraph](https://python.langchain.com/docs/langgraph)
-    * **Хранилище с примерами кода:** Посмотрите исходники папки `d:/tatia/examples/` на вашем компьютере, где лежат готовые шаблоны для быстрого старта с dotenv и requirements!
+    * **Хранилище с примерами кода:** Посмотрите папку `examples/` в корне этого репозитория, где лежат готовые шаблоны для быстрого старта с `dotenv` и `requirements.txt`!
+    * **Конфигурация:** Не забудьте поместить ваш `OPENROUTER_API_KEY` и `OPENROUTER_DEFAULT_MODEL` (например: `z-ai/glm-4.5-air:free`) в локальный файл `.env` для корректной работы Экзамена!
     """)
     
     st.success("Удачной разработки агентов! Пусть ваш LLM-код будет надежным, а latency низким!")
